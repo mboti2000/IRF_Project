@@ -78,6 +78,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="car.xml" />
+    <Content Include="cars\alfaromeo.png" />
+    <Content Include="cars\astonmartin.png" />
+    <Content Include="cars\audi.png" />
+    <Content Include="cars\bmw.png" />
+    <Content Include="cars\bmw2.png" />
+    <Content Include="cars\bugatti.png" />
+    <Content Include="cars\chevrolet.png" />
+    <Content Include="cars\citroen.png" />
+    <Content Include="cars\ferrari.png" />
+    <Content Include="cars\ferrari2.png" />
+    <Content Include="cars\fiat.png" />
+    <Content Include="cars\ford.png" />
+    <Content Include="cars\honda.png" />
+    <Content Include="cars\lamborghini.png" />
+    <Content Include="cars\lamborghini2.png" />
+    <Content Include="cars\mazda.png" />
+    <Content Include="cars\mercedes.png" />
+    <Content Include="cars\mercedes2.png" />
+    <Content Include="cars\nissan.png" />
+    <Content Include="cars\opel.png" />
+    <Content Include="cars\peugeot.png" />
+    <Content Include="cars\porsche.png" />
+    <Content Include="cars\renault.png" />
+    <Content Include="cars\skoda.png" />
+    <Content Include="cars\skoda2.png" />
+    <Content Include="cars\suzuki.png" />
+    <Content Include="cars\tesla.png" />
+    <Content Include="cars\toyota.png" />
+    <Content Include="cars\volkswagen.png" />
+    <Content Include="cars\volvo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
