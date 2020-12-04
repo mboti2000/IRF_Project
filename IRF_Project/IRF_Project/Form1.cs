@@ -21,6 +21,7 @@ namespace IRF_Project
 
             var i = 0;
             var j = 1;
+            var k = 1;
             foreach (XmlElement element in xml.DocumentElement)
             {
                 Car c = new Car();
@@ -36,11 +37,16 @@ namespace IRF_Project
                     b.Left = b.Width * i;
                     i++;
                 }
-                else if (j < 10)
+                else if (j < 11)
                 {
                     b.Top = b.Height;
                     b.Left = b.Width * (j - 1);
                     j++;
+                }
+                else {
+                    b.Top = b.Height*2;
+                    b.Left = b.Width * (k - 1);
+                    k++;
                 }
 
                 panel1.Controls.Add(b);

@@ -15,10 +15,11 @@ namespace IRF_Project
         public CarButton()
         {
 
-            Height = 40;
+            Height = 80;
             Width = 110;
             FlatStyle = FlatStyle.Flat;
             FlatAppearance.BorderSize = 1;
+            
             Margin = new Padding(20, 20, 20, 20);
             BackColor = Color.Beige;
 
