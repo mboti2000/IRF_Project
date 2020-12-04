@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,6 +51,40 @@ namespace IRF_Project
                 }
 
                 panel1.Controls.Add(b);
+            }
+        }
+
+        private void csvButton_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            if (sfd.ShowDialog() != DialogResult.OK) return;
+
+            using (StreamWriter sw = new StreamWriter(sfd.FileName, false, Encoding.UTF8))
+            {
+                sw.Write("Modell");
+                sw.Write(';');
+                sw.Write("Ár");
+                sw.Write(';');
+                sw.Write("Szín");
+                sw.Write(';');
+                sw.Write("Évjárat");
+                sw.WriteLine();
+
+                foreach (XmlElement element in xml.DocumentElement)
+                {
+                    
+                    foreach (XmlNode child in element.ChildNodes)
+                    {
+                        if (child.Name != "image") {
+                            sw.Write(child.InnerText);
+                            sw.Write(';');
+                        }
+                       
+                    }
+         
+                    sw.WriteLine();
+
+                }
             }
         }
     }

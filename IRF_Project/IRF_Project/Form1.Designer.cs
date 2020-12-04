@@ -32,6 +32,7 @@ namespace IRF_Project
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.csvButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,11 +70,27 @@ namespace IRF_Project
             this.label1.TabIndex = 3;
             this.label1.Text = "Autókereskedés";
             // 
+            // csvButton
+            // 
+            this.csvButton.BackColor = System.Drawing.Color.Silver;
+            this.csvButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.csvButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.csvButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.csvButton.ForeColor = System.Drawing.Color.White;
+            this.csvButton.Location = new System.Drawing.Point(811, 258);
+            this.csvButton.Name = "csvButton";
+            this.csvButton.Size = new System.Drawing.Size(136, 47);
+            this.csvButton.TabIndex = 4;
+            this.csvButton.Text = "Terméklista letöltése";
+            this.csvButton.UseVisualStyleBackColor = false;
+            this.csvButton.Click += new System.EventHandler(this.csvButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1106, 560);
+            this.Controls.Add(this.csvButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -89,6 +106,7 @@ namespace IRF_Project
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button csvButton;
     }
 }
 
