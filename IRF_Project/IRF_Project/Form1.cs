@@ -72,18 +72,14 @@ namespace IRF_Project
 
                 foreach (XmlElement element in xml.DocumentElement)
                 {
-                    
                     foreach (XmlNode child in element.ChildNodes)
                     {
                         if (child.Name != "image") {
                             sw.Write(child.InnerText);
                             sw.Write(';');
                         }
-                       
                     }
-         
-                    sw.WriteLine();
-
+                     sw.WriteLine();
                 }
             }
         }

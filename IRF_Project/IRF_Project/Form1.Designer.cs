@@ -38,8 +38,8 @@ namespace IRF_Project
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(87, 89);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(80, 89);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(370, 225);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -53,9 +53,9 @@ namespace IRF_Project
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Location = new System.Drawing.Point(0, 322);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1104, 237);
+            this.panel1.Size = new System.Drawing.Size(1101, 280);
             this.panel1.TabIndex = 2;
             // 
             // label1
@@ -72,8 +72,8 @@ namespace IRF_Project
             // 
             // csvButton
             // 
-            this.csvButton.BackColor = System.Drawing.Color.Silver;
-            this.csvButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.csvButton.BackColor = System.Drawing.Color.DimGray;
+            this.csvButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.csvButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.csvButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.csvButton.ForeColor = System.Drawing.Color.White;
@@ -89,7 +89,7 @@ namespace IRF_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1106, 560);
+            this.ClientSize = new System.Drawing.Size(1103, 603);
             this.Controls.Add(this.csvButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
