@@ -1,0 +1,212 @@
+<cars>
+	<car>
+		<model>Audi R8</model>
+		<price>12.6</price>
+		<color>red</color>
+		<image>audi</image>
+		<year>2012</year>
+	</car>
+	<car>
+		<model>Ferrari F120</model>
+		<price>29.3</price>
+		<color>red</color>
+		<image>ferrari</image>
+		<year>2010</year>
+	</car>
+	<car>
+		<model>Lamborghini Gallardo</model>
+		<price>42.1</price>
+		<color>green</color>
+		<image>lamborghini</image>
+		<year>2009</year>
+	</car>
+	<car>
+		<model>Alfa Romeo MiTo</model>
+		<price>5.6</price>
+		<color>red</color>
+		<image>alfaromeo</image>
+		<year>2014</year>
+	</car>
+	<car>
+		<model>Aston Martin</model>
+		<price>11.7</price>
+		<color>black</color>
+		<image>astonmartin</image>
+		<year>2015</year>
+	</car>
+	<car>
+		<model>BMW X6</model>
+		<price>8.8</price>
+		<color>black</color>
+		<image>bmw</image>
+		<year>2017</year>
+	</car>
+	<car>
+		<model>BMW M4</model>
+		<price>15.3</price>
+		<color>blue</color>
+		<image>bmw2</image>
+		<year>2018</year>
+	</car>
+	<car>
+		<model>Bugatti Veyron</model>
+		<price>68.7</price>
+		<color>black</color>
+		<image>bugatti</image>
+		<year>2011</year>
+	</car>
+	<car>
+		<model>Checrolet Camaro</model>
+		<price>15.5</price>
+		<color>red</color>
+		<image>chevrolet</image>
+		<year>2008</year>
+	</car>
+	<car>
+		<model>Citroen</model>
+		<price>4.2</price>
+		<color>white</color>
+		<image>citroen</image>
+		<year>2010</year>
+	</car>
+	<car>
+		<model>Ferrari</model>
+		<price>33.7</price>
+		<color>red</color>
+		<image>ferrari2</image>
+		<year>2015</year>
+	</car>
+	<car>
+		<model>Fiat 500</model>
+		<price>2.3</price>
+		<color>green</color>
+		<image>fiat</image>
+		<year>2016</year>
+	</car>
+	<car>
+		<model>Ford Mondeo</model>
+		<price>6.6</price>
+		<color>black</color>
+		<image>ford</image>
+		<year>2007</year>
+	</car>
+	<car>
+		<model>Honda Jazz</model>
+		<price>3.6</price>
+		<color>blue</color>
+		<image>honda</image>
+		<year>2009</year>
+	</car>
+	<car>
+		<model>Lamborghini Huracan</model>
+		<price>48.1</price>
+		<color>black</color>
+		<image>lamborghini2</image>
+		<year>2014</year>
+	</car>
+	<car>
+		<model>Mazda 6</model>
+		<price>7.5</price>
+		<color>white</color>
+		<image>mazda</image>
+		<year>2015</year>
+	</car>
+	<car>
+		<model>Mercedes</model>
+		<price>18.3</price>
+		<color>white</color>
+		<image>mercedes</image>
+		<year>2020</year>
+	</car>
+	<car>
+		<model>Mercedes G</model>
+		<price>22.1</price>
+		<color>white</color>
+		<image>mercedes2</image>
+		<year>2013</year>
+	</car>
+	<car>
+		<model>Nissan Juke</model>
+		<price>3.6</price>
+		<color>red</color>
+		<image>nissan</image>
+		<year>2017</year>
+	</car>
+	<car>
+		<model>Opel Mokka</model>
+		<price>4.8</price>
+		<color>orange</color>
+		<image>opel</image>
+		<year>2019</year>
+	</car>
+	<car>
+		<model>Peugeot</model>
+		<price>1.9</price>
+		<color>blue</color>
+		<image>peugeot</image>
+		<year>2012</year>
+	</car>
+	<car>
+		<model>Porsche</model>
+		<price>26.7</price>
+		<color>grey</color>
+		<image>porsche</image>
+		<year>2009</year>
+	</car>
+	<car>
+		<model>Renault</model>
+		<price>4.4</price>
+		<color>orange</color>
+		<image>renault</image>
+		<year>2007</year>
+	</car>
+	<car>
+		<model>Skoda Fabia</model>
+		<price>1.1</price>
+		<color>grey</color>
+		<image>skoda</image>
+		<year>2001</year>
+	</car>
+	<car>
+		<model>Skoda Yeti</model>
+		<price>3.9</price>
+		<color>green</color>
+		<image>skoda2</image>
+		<year>2010</year>
+	</car>
+	<car>
+		<model>Suzuki Vitara</model>
+		<price>5.9</price>
+		<color>blue</color>
+		<image>suzuki</image>
+		<year>2018</year>
+	</car>
+	<car>
+		<model>Tesla Model S</model>
+		<price>55.8</price>
+		<color>red</color>
+		<image>tesla</image>
+		<year>2019</year>
+	</car>
+	<car>
+		<model>Toyota Sandero</model>
+		<price>3.9</price>
+		<color>black</color>
+		<image>toyota</image>
+		<year>2006</year>
+	</car>
+	<car>
+		<model>Volkswagen Golf</model>
+		<price>4.5</price>
+		<color>black</color>
+		<image>volksawagen</image>
+		<year>2017</year>
+	</car>
+	<car>
+		<model>Volvo</model>
+		<price>12.6</price>
+		<color>red</color>
+		<image>Volvo</image>
+		<year>2016</year>
+	</car>
+</cars>
