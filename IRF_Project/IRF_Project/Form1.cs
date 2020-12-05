@@ -31,12 +31,24 @@ namespace IRF_Project
             foreach (XmlElement element in xml.DocumentElement)
             {
                 Car c = new Car();
-                CarButton b = new CarButton();
+                
                 c.Model = ((XmlElement)element.ChildNodes[0]).InnerText;
                 c.Photo = ((XmlElement)element.ChildNodes[3]).InnerText;
+                c.Price = int.Parse(((XmlElement)element.ChildNodes[1]).InnerText);         
+                c.Year = int.Parse(((XmlElement)element.ChildNodes[4]).InnerText);
+                c.Color = Color.FromName(((XmlElement)element.ChildNodes[3]).InnerText);
+
+
+                CarButton b = new CarButton();
+                b.car = c;
                 b.pc = pictureBox1;
-                b.img = c.Photo;
                 b.Text = c.Model;
+                b.lbl1 = label2;
+                b.lbl2 = label3;
+                b.lbl3 = label4;
+                b.lbl4 = label5;
+                button1.Visible = true;
+                button1.BackColor = c.Color;
 
                 if (i < 10)
                 {

@@ -12,7 +12,7 @@ namespace IRF_Project
         public string Model { get; set; }
         public Color Color { get; set; }
         public string Photo { get; set; }
-        public double Price { get; set; }
+        public int Price { get; set; }
 
         public int Year { get; set; }
 
@@ -21,7 +21,9 @@ namespace IRF_Project
         public string Cathegory
         {
             get { return _cathegory; }
-            set { if (this.Price > 15)
+            set {
+                _cathegory = value;
+                if (this.Price > 15)
                 {
                     _cathegory = "Luxusautó";
                 }
@@ -32,6 +34,8 @@ namespace IRF_Project
                 else {
                     _cathegory = "Olcsóbb kategóriás";
                 }
+
+                
             }
         }
 
