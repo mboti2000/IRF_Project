@@ -33,6 +33,11 @@ namespace IRF_Project
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.csvButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,7 +46,7 @@ namespace IRF_Project
             this.pictureBox1.Location = new System.Drawing.Point(80, 89);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(370, 225);
+            this.pictureBox1.Size = new System.Drawing.Size(335, 225);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -77,7 +82,7 @@ namespace IRF_Project
             this.csvButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.csvButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.csvButton.ForeColor = System.Drawing.Color.White;
-            this.csvButton.Location = new System.Drawing.Point(811, 258);
+            this.csvButton.Location = new System.Drawing.Point(955, 70);
             this.csvButton.Name = "csvButton";
             this.csvButton.Size = new System.Drawing.Size(136, 47);
             this.csvButton.TabIndex = 4;
@@ -85,11 +90,63 @@ namespace IRF_Project
             this.csvButton.UseVisualStyleBackColor = false;
             this.csvButton.Click += new System.EventHandler(this.csvButton_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(509, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "label2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(509, 163);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(509, 229);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "label4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(509, 301);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "label5";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Location = new System.Drawing.Point(651, 93);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(39, 40);
+            this.button1.TabIndex = 9;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1103, 603);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.csvButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -98,6 +155,7 @@ namespace IRF_Project
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -107,6 +165,11 @@ namespace IRF_Project
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button csvButton;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
     }
 }
 

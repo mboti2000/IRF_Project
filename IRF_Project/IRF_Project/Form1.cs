@@ -18,7 +18,12 @@ namespace IRF_Project
         public Form1()
         {
             InitializeComponent();
+
             xml.Load(@"car.xml");
+            LoadCarButtons();
+        }
+
+        public void LoadCarButtons() {
 
             var i = 0;
             var j = 1;
@@ -44,8 +49,9 @@ namespace IRF_Project
                     b.Left = b.Width * (j - 1);
                     j++;
                 }
-                else {
-                    b.Top = b.Height*2;
+                else
+                {
+                    b.Top = b.Height * 2;
                     b.Left = b.Width * (k - 1);
                     k++;
                 }
@@ -54,8 +60,8 @@ namespace IRF_Project
             }
         }
 
-        private void csvButton_Click(object sender, EventArgs e)
-        {
+        public void ExtractCSV() {
+
             SaveFileDialog sfd = new SaveFileDialog();
             if (sfd.ShowDialog() != DialogResult.OK) return;
 
@@ -74,14 +80,21 @@ namespace IRF_Project
                 {
                     foreach (XmlNode child in element.ChildNodes)
                     {
-                        if (child.Name != "image") {
+                        if (child.Name != "image")
+                        {
                             sw.Write(child.InnerText);
                             sw.Write(';');
                         }
                     }
-                     sw.WriteLine();
+                    sw.WriteLine();
                 }
             }
+        }
+
+
+        private void csvButton_Click(object sender, EventArgs e)
+        {
+            ExtractCSV();
         }
     }
 }
