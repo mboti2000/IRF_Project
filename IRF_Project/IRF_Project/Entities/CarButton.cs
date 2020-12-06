@@ -41,28 +41,7 @@ namespace IRF_Project
             pc.Load(@"cars/" + img + ".png");
         }
 
-        /*
-        public void getModel(string model, Label lbl) {
-            lbl.Text = model;
-            
-        }
-
-        public void getPrice(int price, Label lbl)
-        {
-            lbl.Text = price.ToString();
-
-        }
-        public void getYear(int year, Label lbl)
-        {
-            lbl.Text = year.ToString();
-
-        }
-        public void get(string model, Label lbl)
-        {
-            lbl.Text = model;
-
-        }*/
-
+ 
         private void CarButton_Click(object sender, EventArgs e)
         {
             loadImg(this.pc, this.car.Photo);

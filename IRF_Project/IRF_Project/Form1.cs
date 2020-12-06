@@ -36,6 +36,7 @@ namespace IRF_Project
                 c.Photo = ((XmlElement)element.ChildNodes[3]).InnerText;
                 c.Price = int.Parse(((XmlElement)element.ChildNodes[1]).InnerText);         
                 c.Year = int.Parse(((XmlElement)element.ChildNodes[4]).InnerText);
+                c.Cathegory = "";
                 c.Color = Color.FromName(((XmlElement)element.ChildNodes[3]).InnerText);
 
 

@@ -22,18 +22,20 @@ namespace IRF_Project
         {
             get { return _cathegory; }
             set {
-                _cathegory = value;
+                
                 if (this.Price > 15)
                 {
-                    _cathegory = "Luxusautó";
+                    value = "Luxusautó";
+                    
                 }
                 else if (this.Price > 5)
                 {
-                    _cathegory = "Középkategóriás";
+                    value = "Középkategóriás";
                 }
                 else {
-                    _cathegory = "Olcsóbb kategóriás";
+                    value = "Olcsóbb kategóriás";
                 }
+                _cathegory = value;
 
                 
             }
