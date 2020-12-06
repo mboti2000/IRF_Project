@@ -14,6 +14,7 @@ namespace IRF_Project
         public PictureBox pc { get; set; }
 
         public Car car { get; set; }
+        public Button btn { get; set; }
 
         public Label lbl1 { get; set; }
         
@@ -45,11 +46,12 @@ namespace IRF_Project
         private void CarButton_Click(object sender, EventArgs e)
         {
             loadImg(this.pc, this.car.Photo);
-            this.lbl1.Text = this.car.Model;
-            this.lbl2.Text = this.car.Price.ToString();
-            this.lbl3.Text = this.car.Year.ToString();
-            this.lbl4.Text = this.car.Cathegory;
-            
+            lbl1.Text = car.Model;
+            lbl2.Text = car.Price.ToString()+ " millió Ft";
+            lbl3.Text = car.Year.ToString();
+            lbl4.Text = car.Cathegory;
+            btn.Visible = Visible;
+            btn.BackColor = Color.FromName(car.Color);            
         }
     }
 }

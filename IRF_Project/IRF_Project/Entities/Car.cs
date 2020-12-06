@@ -10,7 +10,7 @@ namespace IRF_Project
     class Car
     {
         public string Model { get; set; }
-        public Color Color { get; set; }
+        public string Color { get; set; }
         public string Photo { get; set; }
         public int Price { get; set; }
 

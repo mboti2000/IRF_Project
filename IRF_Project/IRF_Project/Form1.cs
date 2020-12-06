@@ -37,7 +37,7 @@ namespace IRF_Project
                 c.Price = int.Parse(((XmlElement)element.ChildNodes[1]).InnerText);         
                 c.Year = int.Parse(((XmlElement)element.ChildNodes[4]).InnerText);
                 c.Cathegory = "";
-                c.Color = Color.FromName(((XmlElement)element.ChildNodes[3]).InnerText);
+                c.Color = ((XmlElement)element.ChildNodes[2]).InnerText;
 
 
                 CarButton b = new CarButton();
@@ -48,8 +48,9 @@ namespace IRF_Project
                 b.lbl2 = label3;
                 b.lbl3 = label4;
                 b.lbl4 = label5;
-                button1.Visible = true;
-                button1.BackColor = c.Color;
+                b.btn = button1;
+               /* button1.Visible = true;
+                button1.BackColor = c.Color;*/
 
                 if (i < 10)
                 {
