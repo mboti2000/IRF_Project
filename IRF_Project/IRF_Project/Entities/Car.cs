@@ -23,7 +23,7 @@ namespace IRF_Project
             get { return _cathegory; }
             set {
                 
-                if (this.Price > 15)
+                if (this.Price > 10)
                 {
                     value = "Luxusautó";
                     
