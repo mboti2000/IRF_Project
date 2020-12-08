@@ -26,7 +26,10 @@ namespace IRF_Project
 
         public CarButton()
         {
-           // Text = this.car.Model;
+            //Text = this.car.Model;
+
+           //BackColor = Color.DimGray;
+           // ForeColor = Color.White;
             Height = 80;
             Width = 110;
             FlatStyle = FlatStyle.Flat;

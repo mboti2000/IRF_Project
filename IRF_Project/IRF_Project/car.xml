@@ -7,9 +7,9 @@
 		<year>2012</year>
 	</car>
 	<car>
-		<model>Ferrari F120</model>
+		<model>Ferrari California</model>
 		<price>29</price>
-		<color>red</color>
+		<color>yellow</color>
 		<image>ferrari</image>
 		<year>2010</year>
 	</car>
@@ -28,7 +28,7 @@
 		<year>2014</year>
 	</car>
 	<car>
-		<model>Aston Martin</model>
+		<model>Aston Martin DB11</model>
 		<price>11</price>
 		<color>black</color>
 		<image>astonmartin</image>
@@ -56,7 +56,7 @@
 		<year>2011</year>
 	</car>
 	<car>
-		<model>Checrolet Camaro</model>
+		<model>Chevrolet Camaro</model>
 		<price>15</price>
 		<color>red</color>
 		<image>chevrolet</image>
@@ -70,7 +70,7 @@
 		<year>2010</year>
 	</car>
 	<car>
-		<model>Ferrari</model>
+		<model>Ferrari 458</model>
 		<price>33</price>
 		<color>red</color>
 		<image>ferrari2</image>
@@ -112,14 +112,14 @@
 		<year>2015</year>
 	</car>
 	<car>
-		<model>Mercedes</model>
+		<model>Mercedes A-class</model>
 		<price>18</price>
 		<color>white</color>
 		<image>mercedes</image>
 		<year>2020</year>
 	</car>
 	<car>
-		<model>Mercedes G</model>
+		<model>Mercedes G-class</model>
 		<price>22</price>
 		<color>white</color>
 		<image>mercedes2</image>
@@ -140,21 +140,21 @@
 		<year>2019</year>
 	</car>
 	<car>
-		<model>Peugeot</model>
+		<model>Peugeot 107</model>
 		<price>1</price>
 		<color>blue</color>
 		<image>peugeot</image>
 		<year>2012</year>
 	</car>
 	<car>
-		<model>Porsche</model>
+		<model>Porsche 911</model>
 		<price>26</price>
-		<color>grey</color>
+		<color>silver</color>
 		<image>porsche</image>
 		<year>2009</year>
 	</car>
 	<car>
-		<model>Renault</model>
+		<model>Renault Captur</model>
 		<price>4</price>
 		<color>orange</color>
 		<image>renault</image>
@@ -163,7 +163,7 @@
 	<car>
 		<model>Skoda Fabia</model>
 		<price>1</price>
-		<color>grey</color>
+		<color>silver</color>
 		<image>skoda</image>
 		<year>2001</year>
 	</car>
@@ -203,7 +203,7 @@
 		<year>2017</year>
 	</car>
 	<car>
-		<model>Volvo</model>
+		<model>Volvo S60</model>
 		<price>12</price>
 		<color>red</color>
 		<image>Volvo</image>
