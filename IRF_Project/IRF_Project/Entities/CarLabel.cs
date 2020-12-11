@@ -12,11 +12,13 @@ namespace IRF_Project
     {
         public CarLabel()
         {
-            BackColor = Color.Beige;
-            //AutoSize = false;
+            BackColor = Color.Silver;
+            ForeColor = Color.White;
+            AutoSize = false;
             FlatStyle = FlatStyle.Flat;
             BackColor = Color.Beige;
             Height = 50;
+            Width = 150;
 
         }
         

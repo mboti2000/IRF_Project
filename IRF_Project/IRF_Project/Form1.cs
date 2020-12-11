@@ -15,6 +15,7 @@ namespace IRF_Project
     public partial class Form1 : Form
     {
         XmlDocument xml = new XmlDocument();
+        List<Car> cars = new List<Car>();
         public Form1()
         {
             InitializeComponent();
@@ -70,6 +71,7 @@ namespace IRF_Project
                     k++;
                 }
 
+                cars.Add(c);
                 panel1.Controls.Add(b);
             }
         }
@@ -85,22 +87,34 @@ namespace IRF_Project
                 sw.Write(';');
                 sw.Write("Ár");
                 sw.Write(';');
-                sw.Write("Szín");
-                sw.Write(';');
                 sw.Write("Évjárat");
+                sw.Write(';');
+                sw.Write("Kategória");
+                sw.Write(';');
+                sw.Write("Szín");
                 sw.WriteLine();
 
-                foreach (XmlElement element in xml.DocumentElement)
-                {
-                    foreach (XmlNode child in element.ChildNodes)
-                    {
-                        if (child.Name != "image")
-                        {
-                            sw.Write(child.InnerText);
-                            sw.Write(';');
-                        }
+                foreach (Car c in cars) {
+
+                    if (int.Parse(textBox1.Text) < c.Price) continue;
+                    if (int.Parse(textBox2.Text) < c.Year) continue;
+
+                    if (comboBox1.SelectedItem.ToString() == c.Cathegory) {
+
+                        sw.Write(c.Model);
+                        sw.Write(';');
+                        sw.Write(c.Price);
+                        sw.Write(';');
+                        sw.Write(c.Year);
+                        sw.Write(';');
+                        sw.Write(c.Cathegory);
+                        sw.Write(';');
+                        sw.Write(c.Color);
+                        sw.WriteLine();
                     }
-                    sw.WriteLine();
+
+                   
+
                 }
             }
         }
