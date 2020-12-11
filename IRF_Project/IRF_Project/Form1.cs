@@ -44,10 +44,10 @@ namespace IRF_Project
                 b.car = c;
                 b.pc = pictureBox1;
                 b.Text = c.Model;
-                b.lbl1 = label2;
-                b.lbl2 = label3;
-                b.lbl3 = label4;
-                b.lbl4 = label5;
+                 b.lbl1 = carLabel1;
+                 b.lbl2 = carLabel4;
+                 b.lbl3 = carLabel2;
+                 b.lbl4 = carLabel3;
                 b.btn = button1;
                /* button1.Visible = true;
                 button1.BackColor = c.Color;*/

@@ -16,11 +16,11 @@ namespace IRF_Project
         public Car car { get; set; }
         public Button btn { get; set; }
 
-        public Label lbl1 { get; set; }
+        public CarLabel lbl1 { get; set; }
         
-        public Label lbl2{ get; set; }
-        public Label lbl3 { get; set; }
-        public Label lbl4 { get; set; }
+        public CarLabel lbl2{ get; set; }
+        public CarLabel lbl3 { get; set; }
+        public CarLabel lbl4 { get; set; }
        
 
 
