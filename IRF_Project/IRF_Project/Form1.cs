@@ -78,6 +78,12 @@ namespace IRF_Project
 
         public void ExtractCSV() {
 
+            if (textBox1.Text == "" || textBox2.Text == "" || comboBox1.SelectedItem == null) {
+
+                MessageBox.Show("Kérjük az összes mezőt töltse ki!");
+                return;
+            }
+
             SaveFileDialog sfd = new SaveFileDialog();
             if (sfd.ShowDialog() != DialogResult.OK) return;
 
@@ -98,7 +104,7 @@ namespace IRF_Project
 
                     if (int.Parse(textBox1.Text) < c.Price) continue;
                     if (int.Parse(textBox2.Text) < c.Year) continue;
-
+                  
                     if (comboBox1.SelectedItem.ToString() == c.Cathegory) {
 
                         sw.Write(c.Model);
@@ -111,10 +117,7 @@ namespace IRF_Project
                         sw.Write(';');
                         sw.Write(c.Color);
                         sw.WriteLine();
-                    }
-
-                   
-
+                    }                
                 }
             }
         }

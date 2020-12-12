@@ -47,10 +47,10 @@ namespace IRF_Project
             this.carLabel2 = new IRF_Project.CarLabel();
             this.carLabel1 = new IRF_Project.CarLabel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -60,10 +60,10 @@ namespace IRF_Project
             // pictureBox1
             // 
             this.pictureBox1.Enabled = false;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 35);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(440, 277);
+            this.pictureBox1.Size = new System.Drawing.Size(330, 225);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -72,10 +72,10 @@ namespace IRF_Project
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 446);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Location = new System.Drawing.Point(0, 363);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1471, 345);
+            this.panel1.Size = new System.Drawing.Size(1103, 280);
             this.panel1.TabIndex = 2;
             // 
             // label1
@@ -86,9 +86,8 @@ namespace IRF_Project
             this.label1.Font = new System.Drawing.Font("Matura MT Script Capitals", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1471, 96);
+            this.label1.Size = new System.Drawing.Size(1103, 78);
             this.label1.TabIndex = 3;
             this.label1.Text = "Boti Autókereskedés";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -100,10 +99,9 @@ namespace IRF_Project
             this.csvButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.csvButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.csvButton.ForeColor = System.Drawing.Color.White;
-            this.csvButton.Location = new System.Drawing.Point(0, 252);
-            this.csvButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.csvButton.Location = new System.Drawing.Point(0, 205);
             this.csvButton.Name = "csvButton";
-            this.csvButton.Size = new System.Drawing.Size(340, 67);
+            this.csvButton.Size = new System.Drawing.Size(255, 54);
             this.csvButton.TabIndex = 4;
             this.csvButton.Text = "Terméklista letöltése";
             this.csvButton.UseVisualStyleBackColor = false;
@@ -114,10 +112,9 @@ namespace IRF_Project
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(466, 35);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(350, 28);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(52, 49);
+            this.button1.Size = new System.Drawing.Size(39, 40);
             this.button1.TabIndex = 9;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Visible = false;
@@ -129,8 +126,7 @@ namespace IRF_Project
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(544, 66);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(408, 54);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 23);
             this.label6.TabIndex = 10;
@@ -143,8 +139,7 @@ namespace IRF_Project
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(544, 198);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(408, 161);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 23);
             this.label7.TabIndex = 11;
@@ -157,8 +152,7 @@ namespace IRF_Project
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(544, 258);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(408, 210);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(101, 23);
             this.label8.TabIndex = 12;
@@ -171,8 +165,7 @@ namespace IRF_Project
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(544, 128);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(408, 104);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(131, 23);
             this.label9.TabIndex = 13;
@@ -185,8 +178,7 @@ namespace IRF_Project
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(133, 35);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(100, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 24);
             this.label2.TabIndex = 18;
@@ -194,16 +186,18 @@ namespace IRF_Project
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(189, 99);
+            this.textBox1.Location = new System.Drawing.Point(142, 80);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(32, 22);
+            this.textBox1.Size = new System.Drawing.Size(25, 20);
             this.textBox1.TabIndex = 19;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 148);
+            this.textBox2.Location = new System.Drawing.Point(141, 120);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 22);
+            this.textBox2.Size = new System.Drawing.Size(91, 20);
             this.textBox2.TabIndex = 20;
             // 
             // comboBox1
@@ -213,9 +207,10 @@ namespace IRF_Project
             "Olcsóbb kategóriás",
             "Középkategóriás",
             "Luxusautó"});
-            this.comboBox1.Location = new System.Drawing.Point(154, 203);
+            this.comboBox1.Location = new System.Drawing.Point(116, 165);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 24);
+            this.comboBox1.Size = new System.Drawing.Size(109, 21);
             this.comboBox1.TabIndex = 26;
             // 
             // carLabel4
@@ -224,10 +219,9 @@ namespace IRF_Project
             this.carLabel4.BackColor = System.Drawing.Color.DimGray;
             this.carLabel4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carLabel4.ForeColor = System.Drawing.Color.White;
-            this.carLabel4.Location = new System.Drawing.Point(667, 203);
-            this.carLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.carLabel4.Location = new System.Drawing.Point(500, 165);
             this.carLabel4.Name = "carLabel4";
-            this.carLabel4.Size = new System.Drawing.Size(68, 16);
+            this.carLabel4.Size = new System.Drawing.Size(54, 13);
             this.carLabel4.TabIndex = 17;
             this.carLabel4.Text = "carLabel4";
             // 
@@ -237,10 +231,9 @@ namespace IRF_Project
             this.carLabel3.BackColor = System.Drawing.Color.DimGray;
             this.carLabel3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carLabel3.ForeColor = System.Drawing.Color.White;
-            this.carLabel3.Location = new System.Drawing.Point(731, 135);
-            this.carLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.carLabel3.Location = new System.Drawing.Point(548, 110);
             this.carLabel3.Name = "carLabel3";
-            this.carLabel3.Size = new System.Drawing.Size(68, 16);
+            this.carLabel3.Size = new System.Drawing.Size(54, 13);
             this.carLabel3.TabIndex = 16;
             this.carLabel3.Text = "carLabel3";
             // 
@@ -250,10 +243,9 @@ namespace IRF_Project
             this.carLabel2.BackColor = System.Drawing.Color.DimGray;
             this.carLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carLabel2.ForeColor = System.Drawing.Color.White;
-            this.carLabel2.Location = new System.Drawing.Point(716, 264);
-            this.carLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.carLabel2.Location = new System.Drawing.Point(537, 214);
             this.carLabel2.Name = "carLabel2";
-            this.carLabel2.Size = new System.Drawing.Size(68, 16);
+            this.carLabel2.Size = new System.Drawing.Size(54, 13);
             this.carLabel2.TabIndex = 15;
             this.carLabel2.Text = "carLabel2";
             // 
@@ -263,10 +255,9 @@ namespace IRF_Project
             this.carLabel1.BackColor = System.Drawing.Color.DimGray;
             this.carLabel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carLabel1.ForeColor = System.Drawing.Color.White;
-            this.carLabel1.Location = new System.Drawing.Point(731, 72);
-            this.carLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.carLabel1.Location = new System.Drawing.Point(548, 58);
             this.carLabel1.Name = "carLabel1";
-            this.carLabel1.Size = new System.Drawing.Size(68, 16);
+            this.carLabel1.Size = new System.Drawing.Size(54, 13);
             this.carLabel1.TabIndex = 14;
             this.carLabel1.Text = "carLabel1";
             // 
@@ -282,50 +273,55 @@ namespace IRF_Project
             this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.textBox2);
-            this.panel3.Location = new System.Drawing.Point(1071, 118);
+            this.panel3.Location = new System.Drawing.Point(803, 96);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(340, 320);
+            this.panel3.Size = new System.Drawing.Size(255, 260);
             this.panel3.TabIndex = 28;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(42, 102);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 16);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "Maximum ár:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(42, 151);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 16);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "Évjárat:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(42, 206);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 16);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "Kategória:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.Location = new System.Drawing.Point(227, 102);
+            this.label10.Location = new System.Drawing.Point(170, 83);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 16);
             this.label10.TabIndex = 30;
             this.label10.Text = "millió Ft";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(32, 167);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 16);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Kategória:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(9, 121);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(128, 16);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Maximum évjárat:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(32, 83);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 16);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Maximum ár:";
             // 
             // panel2
             // 
@@ -340,22 +336,22 @@ namespace IRF_Project
             this.panel2.Controls.Add(this.carLabel2);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.carLabel1);
-            this.panel2.Location = new System.Drawing.Point(62, 118);
+            this.panel2.Location = new System.Drawing.Point(46, 96);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(900, 319);
+            this.panel2.Size = new System.Drawing.Size(675, 259);
             this.panel2.TabIndex = 29;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1471, 791);
+            this.ClientSize = new System.Drawing.Size(1103, 643);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
