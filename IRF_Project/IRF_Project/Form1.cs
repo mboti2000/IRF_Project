@@ -129,7 +129,9 @@ namespace IRF_Project
         private void csvButton_Click(object sender, EventArgs e)
         {
             ExtractCSV();
-
+            textBox1.Text = "";
+            textBox2.Text = "";
+           
             
         }
 
