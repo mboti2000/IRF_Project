@@ -54,7 +54,9 @@ namespace IRF_Project
             lbl3.Text = car.Year.ToString();
             lbl4.Text = car.Cathegory;
             btn.Visible = Visible;
-            btn.BackColor = Color.FromName(car.Color);            
+            btn.BackColor = Color.FromName(car.Color);
+
+            
         }
     }
 }

@@ -45,13 +45,14 @@ namespace IRF_Project
                 b.car = c;
                 b.pc = pictureBox1;
                 b.Text = c.Model;
-                 b.lbl1 = carLabel1;
-                 b.lbl2 = carLabel4;
-                 b.lbl3 = carLabel2;
-                 b.lbl4 = carLabel3;
+                b.lbl1 = carLabel1;
+                b.lbl2 = carLabel4;
+                b.lbl3 = carLabel2;
+                b.lbl4 = carLabel3;
                 b.btn = button1;
-               /* button1.Visible = true;
-                button1.BackColor = c.Color;*/
+
+               
+               
 
                 if (i < 10)
                 {
@@ -70,6 +71,8 @@ namespace IRF_Project
                     b.Left = b.Width * (k - 1);
                     k++;
                 }
+
+                
 
                 cars.Add(c);
                 panel1.Controls.Add(b);
@@ -126,6 +129,10 @@ namespace IRF_Project
         private void csvButton_Click(object sender, EventArgs e)
         {
             ExtractCSV();
+
+            
         }
+
+        
     }
 }
